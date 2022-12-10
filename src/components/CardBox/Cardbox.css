@@ -1,0 +1,52 @@
+.card {
+    position: relative;
+    margin: 20px 50px;
+}
+
+.title {
+    font-size: 23px;
+    font-weight: 600;
+    top: -10px;
+    position: relative;
+}
+
+.storyDetails {
+    display: flex;
+    flex: 1;
+    flex-direction:row;
+    align-items: flex-end;
+    margin-top: -20px;
+}
+
+.author {
+    color: #A3A7A7; 
+    font-size: 15px;
+}
+
+.time {
+    color: #A3A7A7;
+    font-size: 15px;
+    position: absolute;
+    left: 65%;
+}
+
+@media screen and (min-width: 700px) and (max-width: 1100px) {
+    .time {
+        position: absolute;
+        /* top: 500px; */
+    }    
+}
+
+.comments {
+    margin-top: 0px;
+}
+
+.comments > a {
+    color: #4D4F4F;
+    text-decoration: none;
+}
+
+.button > a {
+    color: #54A4D8;
+    text-decoration: none;
+}
